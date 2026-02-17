@@ -29,5 +29,5 @@ jobs:
         ECR_REGISTRY: ${{ steps.ecr.outputs.registry }}
         IMAGE_TAG: ${{ github.sha }}
       run: |
-        docker build -t $ECR_REGISTRY/strapi-repo:$IMAGE_TAG ./app
+        docker build -t $ECR_REGISTRY/strapi-repo:$IMAGE_TAG ./strapi-app
         docker push $ECR_REGISTRY/strapi-repo:$IMAGE_TAG
