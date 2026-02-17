@@ -1,0 +1,25 @@
+# Node
+node_modules
+npm-debug.log
+
+# Strapi build
+build
+.cache
+
+# Environment
+.env
+.env.*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
