@@ -4,6 +4,6 @@ module "ecr" {
 }
 
 module "ecs" {
-  source    = "./modules/ecs"
-  image_uri = var.image_uri
+    source    = "./modules/ecs"
+    image_uri = var.image_uri
 }
